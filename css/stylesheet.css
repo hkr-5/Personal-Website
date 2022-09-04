@@ -55,7 +55,7 @@ img {
 }
 
 .top {
-  background-image: url(file:///C:/Users/Hikaru/Desktop/img/pexels-cottonbro-4709289.jpg);
+  background-image: url('../img/pexels-cottonbro-4709289.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
