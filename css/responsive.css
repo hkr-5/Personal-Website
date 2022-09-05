@@ -47,10 +47,3 @@
         height: 200px;
     }
   }
-  
-  @media (max-width: 640px) {
-     .news {
-      font-size: 18px;
-      display: block;
-    }
-  }
