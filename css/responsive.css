@@ -33,12 +33,14 @@
       display: none;
     }
     
+<!-- future features
     header .material-icons {
       display: block;
       color: white;
       font-size: 40px;
       padding: 8px 16px;
     }
+-->
 
     .top {
         padding: 40px 0px 80px 0px;
