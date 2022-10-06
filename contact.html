@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="css/stylesheet-contact.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/48f1451063.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img class="logo-icon" src="https://i.postimg.cc/7bb3mC7C/Hikaru-Y.jpg" alt="logo-icon">
+        <p class="welcome">WELCOME</p>
+      </div>
+      <ul class="menu-list">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <div class="dropdown">
+        <span class="menu-icon"><i id="menu-icon" class="fa-solid fa-bars"></i></span>
+        <div class="dropdown-menu">
+          <a href="index.html">HOME</a>
+          <a href="contact.html">CONTACT</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="greeting">
+        <h1>Contact</h1>
+        <h2>Feel free to contact me via Linkedin or email:)</h2>
+      </div>
+          <a class="linkedin-contact" href="https://www.linkedin.com/in/hikaru-yamamoto-670492204/">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>Linkedin</span>
+          </a>
+          <a class="email-contact" href="mailto:yamamoh1@uci.edu">
+            <i class="fa-regular fa-envelope"></i>
+            <span>Email</span>
+          </a>
+        <div class="container">
+            <form action="#">
+              <label for="fname">Your Name</label>
+              <input type="text" id="fname" name="name" placeholder="Your name here...">
+          
+              <label for="purpose">Why are you contacting me?</label>
+              <select id="purpose" name="purpose">
+                <option value="business">Business related</option>
+                <option value="friend">Let's be frieands!</option>
+                <option value="chat">Just to chat</option>
+                <option value="other">Other</option>
+              </select>
+          
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your message here..." style="height:200px"></textarea>
+          
+              <input type="submit" value="Send (Demo only, will be available soon!)">
+            </form>
+          </div>
+    </main>
+  </body> 
+</html>
