@@ -49,11 +49,11 @@
     background-image: linear-gradient(to left, rgb(102,128,106, 1), rgb(102,128,106, 0.7));
   }
 
-  .menu-icon {
+  #menu-icon {
     display: block;
     text-align: right;
     color: white;
-    padding: 5px 16px;
+    padding: 8px 16px;
     font-size: 40px;
   }
 
