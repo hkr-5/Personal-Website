@@ -88,7 +88,7 @@
   }
 
   .logo-icon {
-    width: 70px;
+    width: 65px;
   }
 
   .dropdown-menu {
@@ -157,29 +157,29 @@
 
   .greeting {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 
   .greeting h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .linkedin-contact, .email-contact {
-    font-size: 60px;
+    font-size: 30px;
     display: block;
     margin: 20px 100px;
   }
   
   label {
-    font-size: 45px;
+    font-size: 25px;
   }
 
   input[type=text], select, textarea {
     margin-bottom: 25px;
-    font-size: 35px;
+    font-size: 20px;
   }
   
   input[type=submit] {
-    font-size: 35px;
+    font-size: 15px;
   }
 }
