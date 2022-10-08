@@ -1,235 +1,185 @@
-body, h1, h2, p, form, input, ul {
-  margin: 0;
-  padding: 0;
+@media (max-width: 991.98px) {
+  header {
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  main {
+    margin: 80px 0px;
+    padding: 16px 0px 32px 0px;
+  }
+
+  .welcome {
+      display: none;
+  }
+
+  .logo {
+    text-align: center;
+    margin: 8px 16px;
+  }
+
+  .logo-icon {
+    width: 65px;
+  }
+
+  .logo-text {
+    width: 90px;
+  }
+
+  .menu-list a {
+    display: none;
+  }
+
+  .dropdown {
+    display: block;
+  }
+
+  .dropdown-menu {
+    display: none;
+    padding: 100px 16px;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    font-size: 35px;
+    display: block;
+    padding: 20px 20px;
+    background-image: linear-gradient(to left, rgb(102,128,106, 1), rgb(102,128,106, 0.7));
+  }
+
+  #menu-icon {
+    display: block;
+    text-align: right;
+    color: white;
+    padding: 7px 16px;
+    font-size: 65px;
+  }
+
+  .menu-icon:hover {
+    cursor: pointer;
+  }
+
+  .dropdown-menu a {
+    display: block;
+    color: white;
+    padding: 15px 5px;
+  }
+
+  .dropdown-menu a:hover {
+    color: #ff7b65;
+    font-weight: bold;
+  }
+
+  .top {
+    padding: 40px 0px 80px 0px;
+    height: 200px;
+  }
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-}
+@media (max-width: 575.98px) {
+  header {
+    height: 80px;
+  }
 
-header {
-  width: 200px;
-  height: 100%;
-  background-image: linear-gradient(to left, rgb(102,128,106, 1), rgb(102,128,106, 0.5));
-  position: fixed;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  justify-content: space-between;
-}
+  main {
+    margin: 120px 0px;
+  }
 
-main {
-  margin-left: 200px;
-  padding-top: 40px;
-  margin-bottom: 80px;
-}
+  .logo-icon {
+    width: 70px;
+  }
 
-.main-content {
-  padding: 80px 40px 0px 40px;
-}
+  .dropdown-menu {
+    padding: 30px 16px;
+  }
 
-img {
-  width: 100%;
-}
+  .dropdown:hover .dropdown-menu {
+    font-size: 25px;
+    padding: 10px 20px;
+  }
 
-.welcome {
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
-}
+  #menu-icon {
+    padding: 4.7px 16px;
+    font-size: 70px;
+  }
 
-.top-img {
-  border-radius: 10px;
-  margin-bottom: 32px;
-}
+  .dropdown-menu a {
+    padding: 20px 10px;
+    text-align: left;
+  }
 
-.logo {
-  text-align: center;
-  margin-top: 80px;
-}
+  .top {
+    height: 330px;
+    display: block;
+  }
 
-.logo-icon{
-  width: 120px;
-  border-radius: 10px;
-}
+  .top h1 {
+    font-size: 60px;
+  }
+  
+  .linkedin {
+    opacity: 0.7;
+    padding: 20px 10px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .github {
+    opacity: 0.7;
+    padding: 20px 10px;
+    border: none;
+    font-size: 30px;
+  }
 
-.top {
-  background-image: url('../img/backgroundImg.jpg');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 250px;
-}
+  .linkedin:hover {
+    opacity: 1.0;
+  }
+  
+  .github:hover {
+    opacity: 1.0;
+  }
 
-.top h1 {
-  color: white;
-  letter-spacing: 5px;
-  padding: 50px;
-  margin: auto 20px;
-  opacity: 0.8;
-  text-align: center;
-  font-family: 'Tangerine', serif;
-}
+  .intro-msg {
+    font-size: 20px;
+  }
 
-.btn-wrapper {
-  margin: auto 50px;
-}
+  .language-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 30px;
+  }
 
-.linkedin {
-  color: white;
-  background-color: #0e76a8;
-  padding: 5px 10px;
-  display: block;
-  border-radius: 5px;
-  border: 1px solid rgb(135, 122, 122);
-  margin-bottom: 5px;
-  text-align: center;
-}
+  .uci-icon, .course-img {
+    display: none;
+  }
 
-.github {
-  color: white;
-  background-color: black;
-  padding: 5px 10px;
-  display: block;
-  border-radius: 5px;
-  border: 1px solid rgb(135, 122, 122);
-  text-align: center;
-}
+  .greeting {
+    text-align: center;
+    margin-bottom: 50px;
+  }
 
-.linkedin:hover {
-  opacity: 0.7;
-}
+  .greeting h2 {
+    font-size: 40px;
+  }
 
-.github:hover {
-  opacity: 0.7;
-}
+  .linkedin-contact, .email-contact {
+    font-size: 60px;
+    display: block;
+    margin: 20px 100px;
+  }
+  
+  label {
+    font-size: 45px;
+  }
 
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.menu-list a {
-  color: white;
-  display: block;
-  padding: 16px 24px;
-}
-
-.menu-list {
-  margin-bottom: 40px;
-}
-
-.menu-list a:hover {
-  background-color: #ff7b65;
-}
-
-.dropdown {
-  display: none;
-}
-
-.intro {
-  margin-bottom: 80px;
-  display: flex;
-}
-
-.intro-img {
-  display: inline-block;
-  width: 10%;
-  height: 10%;
-}
-
-.intro-msg {
-  display: inline-block;
-  margin: auto 20px;
-}
-
-.comment {
-  color: #808080;
-  display: flex;
-  flex-direction: row;
-  font-size: 18px; 
-}
-
-.language {
-  color: #000000;
-  display: block;
-  border: 2px solid #c4c4c4;
-  border-radius: 10px;
-  padding: 16px;
-  font-size: 18px; 
-}
-
-.language-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
-  gap: 16px;
-  margin-bottom: 80px;
-}
-
-.button {
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  padding: 16px 40px;
-  border-radius: 30px;
-}
-
-.button:hover {
-  background-color: #808080;
-}
-
-.education {
-  display: flex;
-  margin-bottom: 80px;
-}
-
-.school {
-  margin: 5px 0px 5px 15px;
-}
-
-.uci-icon {
-  width: 20%;
-  height: 20%;
-  margin: auto;
-}
-
-.course-img {
-  width: 40%;
-  height: 40%;
-  border-radius: 10px;
-  margin: auto 10px;
-}
-
-.course-wrapper {
-  display: flex;
-  align-content: space-between;
-  grid-template-columns: repeat(auto-fit, minmax(315px, auto));
-  gap: 24px;
-}
-
-.course-title {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 24px;
-}
-
-.course-content {
-  margin: auto 30px;
-}
-
-.course-list {
-  font-size: 18px;
-  margin-bottom: 24px;
-  margin-left: 30px;
-  list-style-type: disc;
-}
-
-.course {
-  margin: 5px;
+  input[type=text], select, textarea {
+    margin-bottom: 25px;
+    font-size: 35px;
+  }
+  
+  input[type=submit] {
+    font-size: 35px;
+  }
 }
