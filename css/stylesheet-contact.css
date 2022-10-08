@@ -25,6 +25,13 @@ main {
   margin-bottom: 80px;
 }
 
+.greeting h1 {
+  font-family: 'Tangerine', serif;
+  letter-spacing: 3px;
+  padding: 10px;
+  font-size: 100px;
+}
+
 .welcome {
   font-size: 32px;
   font-weight: bold;
@@ -47,7 +54,7 @@ main {
 }
 
 .greeting {
-margin: 20px;
+  margin: 20px;
 }
 
 ul {
@@ -73,17 +80,17 @@ a {
 }
 
 .dropdown {
-display: none;
+  display: none;
 }
 
 .linkedin-contact {
-color: white;
-background-color: #0e76a8;
-padding: 5px 10px;
-border-radius: 5px;
-border: 1px solid rgb(135, 122, 122);
-margin: 10px;
-text-align: center;
+  color: white;
+  background-color: #0e76a8;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(135, 122, 122);
+  margin: 10px;
+  text-align: center;
 }
 
 .linkedin-contact:hover{
@@ -92,7 +99,7 @@ text-align: center;
 
 .email-contact {
   color: white;
-  background-color: rgb(28, 98, 28);
+  background-color: rgb(102,128,106);
   padding: 5px 20px;
   border-radius: 5px;
   border: 1px solid rgb(135, 122, 122);
